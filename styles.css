@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family:"Inter";  
+}
+section {
+    background-color: hsl(244, 38%, 16%);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 4rem 1rem;
+    border-radius: 1rem;
+    padding: 0;
+    text-align: center;
+}
+img {
+    filter:hue-rotate(277deg) brightness(64%) saturate(61%);
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+h1, 
+.title {
+    color: white; 
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.upper {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+}
